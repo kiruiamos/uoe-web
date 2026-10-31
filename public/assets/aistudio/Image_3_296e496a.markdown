@@ -1,0 +1,227 @@
+---
+name: Highland Campus
+colors:
+  surface: '#f9f9ff'
+  surface-dim: '#cfdaf2'
+  surface-bright: '#f9f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f0f3ff'
+  surface-container: '#e7eeff'
+  surface-container-high: '#dee8ff'
+  surface-container-highest: '#d8e3fb'
+  on-surface: '#111c2d'
+  on-surface-variant: '#3f4945'
+  inverse-surface: '#263143'
+  inverse-on-surface: '#ecf1ff'
+  outline: '#707975'
+  outline-variant: '#bfc9c4'
+  surface-tint: '#29695a'
+  primary: '#003a2f'
+  on-primary: '#ffffff'
+  primary-container: '#0b5345'
+  on-primary-container: '#86c5b3'
+  inverse-primary: '#93d3c1'
+  secondary: '#006d37'
+  on-secondary: '#ffffff'
+  secondary-container: '#7bf8a1'
+  on-secondary-container: '#007239'
+  tertiary: '#4a2c00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#694000'
+  on-tertiary-container: '#fea51f'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#afefdc'
+  primary-fixed-dim: '#93d3c1'
+  on-primary-fixed: '#002019'
+  on-primary-fixed-variant: '#065043'
+  secondary-fixed: '#7efba4'
+  secondary-fixed-dim: '#61de8a'
+  on-secondary-fixed: '#00210c'
+  on-secondary-fixed-variant: '#005228'
+  tertiary-fixed: '#ffddb9'
+  tertiary-fixed-dim: '#ffb961'
+  on-tertiary-fixed: '#2b1700'
+  on-tertiary-fixed-variant: '#663e00'
+  background: '#f9f9ff'
+  on-background: '#111c2d'
+  surface-variant: '#d8e3fb'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '800'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.75rem
+  margin: 1.5rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system captures the vibrant spirit of Chepkoilel—fusing academic rigor with the warmth of highland community life. The aesthetic reflects Eldoret’s evergreen topography, agricultural heritage, and lively student pulse.
+
+### Personality & Emotional Response
+- **Grounded & Academic:** Instills trust and reliability for essential tasks such as fee clearance, exam timetables, and hostel allocation.
+- **Vibrant & Communal:** Radiates peer energy, social belonging, and campus pride across clubs, mess hall menus, and sports events.
+- **Approachable & Uncluttered:** Eliminates institutional bureaucracy through legible typographic scales, high contrast touchpoints, and clear, welcoming microcopy.
+
+### Design Direction: Modern Organic Neo-Campus
+The visual language blends structured modern UI utility with soft, organic tactile elements. Interfaces employ layered warm ivory surfaces, forest-tinted boundaries, and lively sun-soaked accents to maintain clarity while remaining distinctly local, optimistic, and student-focused.
+
+## Colors
+
+The palette balances institutional gravitas with youthful campus energy, anchored by Eldoret's lush highland landscape and equatorial sunlight.
+
+### Color Roles & Hierarchy
+- **Deep Highland Green (`#0B5345`):** The primary anchor. Used for primary navigation headers, principal call-to-action buttons, verified institutional badges, and prominent brand accents.
+- **Fresh Emerald (`#27AE60`):** The secondary functional color. Represents active states, success notices, mess opening hours, available hostel slots, and live academic statuses.
+- **Golden Sun Accent (`#F39C12`):** The energetic tertiary punch. Reserved for urgent announcements, pending fee/course deadlines, event highlights, student welfare alerts, and rating badges.
+- **Dark Slate (`#1E293B`):** The primary neutral for body text and deep contrast elements, providing superior readability over off-white backgrounds without the harsh glare of pure black.
+- **Warm Ivory (`#F4F6F4` / `#F8F9FA`):** Ambient background surfaces and sub-layer containers, delivering an organic paper-like canvas that softens mobile screen fatigue.
+- **Functional Warning & Error:** Derived using warm crimson (`#D9381E`) for overdue notices and warnings, balanced with muted olive-tinted dividers (`#E2E8F0`).
+
+## Typography
+
+The typographic system utilizes **Plus Jakarta Sans** uniformly to establish a friendly, contemporary, and highly legible experience across dense tables, timetable matrices, and quick-scan announcements.
+
+### Typographic Hierarchy
+- **Headlines:** Set in Bold (`700`) and ExtraBold (`800`) weights with slight negative letter tracking to give section headers presence, warmth, and structural authority.
+- **Body:** Standardized on Regular (`400`) and Medium (`500`) weights with generous line-height to guarantee high legibility for outdoor smartphone usage under equatorial midday sunlight.
+- **Labels & Microcopy:** Rendered in SemiBold (`600`) and Bold (`700`) with modest letter spacing for crisp badge readability, portal status pills, timetable room identifiers, and navigation tabs.
+
+## Layout & Spacing
+
+The layout operates on a flexible 4-column structure for mobile devices and an 8-column layout for tablets, conforming to a strict 8pt base grid rhythm with a secondary 4pt baseline for inline compact badges.
+
+### Spacing Philosophy
+- **Screen Margins:** Fixed at `1rem` (`16px`) on mobile viewports to preserve maximum data density for grade checks and mess queues, scaling up to `1.5rem` (`24px`) on tablets.
+- **Card-Internal Density:** Balanced via `space-md` (`1rem`) to keep hostel listings and course blocks cohesive while preventing touch errors.
+- **Stack Gaps:** Sequential section stacking enforces a `space-lg` (`1.5rem`) vertical rhythm to clearly distinguish disparate campus domains (e.g., student balance, today’s lectures, mess menu).
+
+## Elevation & Depth
+
+Visual hierarchy avoids heavy drop shadows, opting instead for a layered highland topography of warm ivory tint surfaces, subtle dark slate outlines, and lush ambient glow.
+
+### Depth Layers
+- **Base Canvas (Level 0):** `background: #F4F6F4`. A warm, muted ivory ground tone.
+- **Card Tier (Level 1):** `background: #FFFFFF`, complemented by a crisp hairline border (`border: 1px solid rgba(11, 83, 69, 0.08)`) and an ambient shadow (`box-shadow: 0 2px 8px -2px rgba(11, 83, 69, 0.06)`).
+- **Interactive Floating Tier (Level 2):** Quick action shortcuts, bottom sheets, and sticky fee paybars utilize an elevated diffused shadow (`box-shadow: 0 8px 24px -4px rgba(11, 83, 69, 0.12)`).
+- **Modals & Overlays (Level 3):** Frosted ambient backdrop (`backdrop-filter: blur(8px)`, `background: rgba(14, 41, 34, 0.4)`), drawing user focus to student clearance validations or urgent welfare hotlines.
+
+## Shapes
+
+The shape system adopts a welcoming **Rounded** approach (`0.5rem` / `8px` base curve), conveying friendliness and accessibility.
+
+### Shape Tiers
+- **Input Fields & Small Cards (`rounded` - 8px):** Applied to form elements, table rows, timetable slots, and notification alerts.
+- **Standard Cards & Modules (`rounded-lg` - 16px):** Used across academic feed cards, hostel accommodation summaries, and mess meal counters.
+- **Modals & Bottom Drawers (`rounded-xl` - 24px top corners):** Softens major transitions, anchoring popups naturally into the thumb reach zone.
+- **Badges, Pills & Action Floating Buttons (Pill - 9999px):** Status chips, live cafeteria meal tags, fee clearance tags, and student club filters.
+
+## Components
+
+### Buttons
+- **Primary:** Filled `#0B5345` with crisp white text, `height: 48px`, border radius `12px`. Subtle press animation (`scale: 0.98`).
+- **Secondary:** Surface `#E8F5E9` with `#0B5345` label, zero border, optimal for secondary portal workflows.
+- **Accent Action:** Filled `#F39C12` with dark slate `#1E293B` text for urgent welfare contacts, bursary requests, and cart/token actions.
+
+### Cards
+- Standard student cards (Mess, Hostel, Timetable) utilize white backgrounds on the Ivory canvas with `border-radius: 16px`, `padding: 16px`, and an outer border of `rgba(11, 83, 69, 0.08)`. Headers within cards often pair an energetic mini-icon container (colored `#F4F6F4` with an emerald icon).
+
+### Chips & Badges
+- **Status Pills:** Fully rounded (`9999px`), `font-size: 12px`, `font-weight: 600`.
+  - *Open / Cleared:* Pale emerald background (`#E8F8F0`), `#1E7E46` text.
+  - *Pending / Due:* Pale gold background (`#FEF5E7`), `#B7791F` text.
+  - *Emergency / Closed:* Soft coral background (`#FDECE8`), `#C53030` text.
+
+### Lists & Navigation
+- **Campus Service Links:** Divided list rows with leading 40px rounded squircle icons (colored in matching highland forest tints) and chevron indicators.
+- **Bottom Navigation Bar:** Solid `#FFFFFF` container with top border `1px solid rgba(11, 83, 69, 0.06)`. Selected items highlight with `#0B5345` and an active indicator dot in `#27AE60`.
+
+### Form Controls & Inputs
+- **Text Inputs:** `height: 48px`, border radius `8px`, border `1.5px solid #CBD5E1`, background `#FFFFFF`. Active focus state features an outline ring in Fresh Emerald (`#27AE60`).
+- **Checkboxes & Radios:** Colored with Deep Highland Green (`#0B5345`), rounded with smooth transitions for course selections and student union polling ballots.
+
+### Specialized Campus Modules
+- **Mess Counter Card:** Dynamic badge showing realtime cafeteria occupancy, live meal period (e.g., "Lunch: 11:30 AM - 2:30 PM"), and affordable student menu items.
+- **Student ID Digital Pass:** Deep Highland Green gradient card with embossed university watermark patterns, gold student status seal, high-contrast barcode/QR code, and active term registration pill.

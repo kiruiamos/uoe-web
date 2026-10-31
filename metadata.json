@@ -1,0 +1,6 @@
+{
+  "name": "Highland Campus",
+  "description": "University of Eldoret student portal for Chepkoilel and Town Campus, featuring digital student ID, cafeteria mess menus, hostel allocation, fee clearance, and inter-campus shuttle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
