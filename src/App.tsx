@@ -7,8 +7,9 @@ import { TimetableModule } from './components/TimetableModule';
 import { FeeClearanceModule } from './components/FeeClearanceModule';
 import { HostelModule } from './components/HostelModule';
 import { CampusLifeModule } from './components/CampusLifeModule';
+import { GoogleSheetsModule } from './components/GoogleSheetsModule';
 import { Navigation, NavTab } from './components/Navigation';
-import { MapPin, Sun, Bell, ShieldCheck, ChevronRight, BookOpen, Utensils, Bus, CreditCard, Building2, Smartphone, Monitor } from 'lucide-react';
+import { MapPin, Sun, Bell, ShieldCheck, ChevronRight, BookOpen, Utensils, Bus, CreditCard, Building2, Smartphone, Monitor, FileSpreadsheet } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<NavTab>('dashboard');
@@ -107,6 +108,18 @@ export default function App() {
             <HostelModule halls={hostelHalls} student={student} />
           </div>
         );
+      case 'sheets':
+        return (
+          <div className="space-y-6">
+            <GoogleSheetsModule
+              student={student}
+              lectures={lectures}
+              fees={fees}
+              menuItems={messMenuItems}
+              onNotify={notify}
+            />
+          </div>
+        );
       case 'life':
         return (
           <div className="space-y-6">
@@ -121,7 +134,7 @@ export default function App() {
             <DigitalStudentPass student={student} />
 
             {/* Quick Domain Shortcuts Strip */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
               <button
                 onClick={() => setActiveTab('timetable')}
                 className="p-3.5 rounded-xl bg-white border border-[#0B5345]/10 hover:border-[#0B5345]/40 transition-all text-left flex items-center gap-3 shadow-2xs group"
@@ -171,6 +184,19 @@ export default function App() {
                 <div className="truncate">
                   <p className="text-xs font-bold text-slate-900 group-hover:text-[#0B5345] transition-colors">Clearance</p>
                   <p className="text-[11px] text-[#1E7E46] font-semibold truncate">Exam Eligible</p>
+                </div>
+              </button>
+
+              <button
+                onClick={() => setActiveTab('sheets')}
+                className="p-3.5 rounded-xl bg-white border border-[#0B5345]/10 hover:border-[#0F9D58]/40 transition-all text-left flex items-center gap-3 shadow-2xs group col-span-2 sm:col-span-1"
+              >
+                <div className="w-9 h-9 rounded-lg bg-[#0F9D58]/10 text-[#0F9D58] flex items-center justify-center shrink-0 group-hover:bg-[#0F9D58] group-hover:text-white transition-colors">
+                  <FileSpreadsheet className="w-4 h-4" />
+                </div>
+                <div className="truncate">
+                  <p className="text-xs font-bold text-slate-900 group-hover:text-[#0F9D58] transition-colors">Google Sheets</p>
+                  <p className="text-[11px] text-slate-500 truncate">Sync & Ledger</p>
                 </div>
               </button>
             </div>

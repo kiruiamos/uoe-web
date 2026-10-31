@@ -1,7 +1,7 @@
 import React from 'react';
-import { Home, Calendar, Utensils, Bus, CreditCard, Users, QrCode } from 'lucide-react';
+import { Home, Calendar, Utensils, Bus, CreditCard, Users, QrCode, FileSpreadsheet } from 'lucide-react';
 
-export type NavTab = 'dashboard' | 'timetable' | 'mess' | 'shuttle' | 'fees' | 'life';
+export type NavTab = 'dashboard' | 'timetable' | 'mess' | 'shuttle' | 'fees' | 'sheets' | 'life';
 
 interface Props {
   activeTab: NavTab;
@@ -16,6 +16,7 @@ export const Navigation: React.FC<Props> = ({ activeTab, onTabChange, onOpenPass
     { id: 'mess', label: 'Central Mess' },
     { id: 'shuttle', label: 'Musco Shuttle' },
     { id: 'fees', label: 'Fees & Clearance' },
+    { id: 'sheets', label: 'Google Sheets' },
     { id: 'life', label: 'Campus Life' },
   ];
 
@@ -24,6 +25,7 @@ export const Navigation: React.FC<Props> = ({ activeTab, onTabChange, onOpenPass
     { id: 'timetable', label: 'Classes', icon: Calendar },
     { id: 'mess', label: 'Mess', icon: Utensils },
     { id: 'shuttle', label: 'Shuttle', icon: Bus },
+    { id: 'sheets', label: 'Sheets', icon: FileSpreadsheet },
     { id: 'fees', label: 'Clearance', icon: CreditCard },
   ];
 
@@ -97,7 +99,7 @@ export const Navigation: React.FC<Props> = ({ activeTab, onTabChange, onOpenPass
 
       {/* Mobile Fixed Bottom Navigation Bar (<15% sticky cap) */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200/90 shadow-lg px-2 py-1">
-        <div className="grid grid-cols-5 items-center h-14">
+        <div className="grid grid-cols-6 items-center h-14">
           {mobileTabs.map(tab => {
             const Icon = tab.icon;
             const isActive = activeTab === tab.id;
